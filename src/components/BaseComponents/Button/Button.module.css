@@ -1,0 +1,14 @@
+.boton {
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 8px;
+}
+
+.boton.primary {
+    background-color: blue;
+}
+
+.boton.secondary {
+    background-color: green;
+}

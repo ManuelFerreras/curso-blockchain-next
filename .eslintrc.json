@@ -1,11 +1,12 @@
 {
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "./node_modules/standard/eslintrc.json",
-    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "prettier"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "@typescript-eslint"],
   "rules": {
     "prettier/prettier": "error"
   }
